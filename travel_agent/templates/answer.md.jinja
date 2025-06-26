@@ -1,0 +1,16 @@
+# {{ title }}
+
+## Overview
+{{ overview }}
+
+{% if itinerary %}
+## Itinerary
+{{ itinerary }}
+{% endif %}
+
+{% if images %}
+## Gallery
+{% for url in images %}
+![{{ title }}]({{ url }})
+{% endfor %}
+{% endif %}

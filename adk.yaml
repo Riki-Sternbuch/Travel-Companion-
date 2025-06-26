@@ -1,0 +1,3 @@
+agents:
+  - id: travel
+    entry_point: travel_agent:root_travel_agent
